@@ -29,7 +29,7 @@ namespace MvcDemo.Web.Controllers
 
         public IActionResult Help()
         {
-            ViewData["Message"] = "I will help you.";
+            ViewData["Message"] = "I will help you please.";
 
             return View();
         }
